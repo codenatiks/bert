@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact &amp; Showroom — NOCTURNE Bedding House</title>
+<meta name="description" content="Write to Nocturne, visit the Porto showroom, or read the house FAQ.">
+<link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" fill="%230D1522"/><path d="M22 5a12 12 0 1 0 5.5 17A14 14 0 0 1 22 5z" fill="%23C8A465"/></svg>'>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="contact">
+<main id="main">
+
+  <section class="page-hero">
+    <div class="stars" aria-hidden="true"></div>
+    <div class="wrap">
+      <p class="eyebrow rv">Contact</p>
+      <h1 class="page-title rv"><span class="ln"><span>Write to <em>the house.</em></span></span></h1>
+      <p class="page-sub rv">A human answers within one working day — usually Marta, usually with the kettle on.</p>
+    </div>
+  </section>
+
+  <section class="wrap contact-grid">
+    <div class="c-info rv">
+      <div class="c-card">
+        <h3>The showroom</h3>
+        <p>Rua das Tecelagens 14<br>4050-601 Porto, Portugal</p>
+        <p class="c-hours"><b>Tue – Fri</b> 10:00 – 18:00<br><b>Saturday</b> 10:00 – 14:00<br><b>Sun &amp; Mon</b> the looms rest</p>
+        <p>Come and touch every weave. There are beds to lie on, and nobody will hover.</p>
+      </div>
+      <div class="c-card">
+        <h3>Otherwise</h3>
+        <p><a href="mailto:hello@nocturne.example">hello@nocturne.example</a><br><a href="tel:+351220000000">+351 22 000 00 00</a></p>
+        <p>For fabric advice, send a photo of your room's light — morning and evening both help.</p>
+      </div>
+      <div class="c-map"><img src="https://picsum.photos/seed/porto-old-street-map-view/760/420" alt="The streets around the Porto showroom"><span>✦ You are looking for the blue door</span></div>
+    </div>
+
+    <form class="c-form rv" id="contactForm" novalidate>
+      <div class="f-row">
+        <label>Name<input type="text" name="name" id="cfName" placeholder="Your name" required></label>
+        <label>Email<input type="email" name="email" id="cfEmail" placeholder="you@example.com" required></label>
+      </div>
+      <label>What about?
+        <select id="cfTopic">
+          <option>An order or delivery</option>
+          <option>Fabric advice</option>
+          <option>The 100-night trial</option>
+          <option>Showroom visit</option>
+          <option>Wholesale &amp; hotels</option>
+          <option>Something else</option>
+        </select>
+      </label>
+      <label>Message<textarea id="cfMsg" rows="6" placeholder="Tell us everything…" required></textarea></label>
+      <button type="submit" class="btn btn-solid">Send the letter</button>
+      <p class="f-note">We reply within one working day. Your address stays with us and no one else.</p>
+    </form>
+  </section>
+
+  <section class="light faq" id="faq">
+    <div class="wrap">
+      <div class="sec-head center rv">
+        <span class="sec-no">Asked often</span>
+        <h2 class="sec-title">The house <em>FAQ</em></h2>
+      </div>
+      <div class="acc-group narrow rv">
+        <div class="acc-item"><button class="acc-head">How does the 100-night trial actually work?<span class="acc-x">+</span></button>
+          <div class="acc-body"><p>Order, sleep, decide over a full season. If it isn't right, write to us any time within 100 nights — we arrange collection and refund in full. Washed, lived-in cloth is fine; that is the entire point of the trial.</p></div></div>
+        <div class="acc-item"><button class="acc-head">Which weave should I choose?<span class="acc-x">+</span></button>
+          <div class="acc-body"><p>Hot sleeper or crisp-hotel lover: percale. You like drape and a faint sheen: sateen. You want texture that gets better with age: linen. Cold winters and cold ears: flannel. If you'd like, email us the light in your room and we'll advise.</p></div></div>
+        <div class="acc-item"><button class="acc-head">How fast is delivery?<span class="acc-x">+</span></button>
+          <div class="acc-body"><p>Everything in stock leaves Porto within 48 hours, wrapped in paper and string. Europe arrives in 2–4 working days; everywhere else in 4–8. Orders over $150 ship free.</p></div></div>
+        <div class="acc-item"><button class="acc-head">How do I wash Nocturne cloth?<span class="acc-x">+</span></button>
+          <div class="acc-body"><p>30°C, gentle cycle, mild detergent, no fabric softener (it coats the fibre). Line-dry in the shade if you can. Linen wants to be wrinkled; percale wants a light iron while damp; flannel wants nothing but to be left alone.</p></div></div>
+        <div class="acc-item"><button class="acc-head">Do you supply hotels?<span class="acc-x">+</span></button>
+          <div class="acc-body"><p>We do — it's how the house started. Hotel and guesthouse programmes include sample sets, embroidered monograms and a standing re-order price. Choose "Wholesale &amp; hotels" in the form and Tomás will reply himself.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+</main>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
