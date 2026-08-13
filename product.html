@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NOCTURNE — Product</title>
+<link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" fill="%230D1522"/><path d="M22 5a12 12 0 1 0 5.5 17A14 14 0 0 1 22 5z" fill="%23C8A465"/></svg>'>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="product">
+<main id="main">
+
+  <section class="wrap pd">
+    <nav class="crumbs rv" aria-label="Breadcrumb">
+      <a href="index.html">Home</a><span>/</span><a href="shop.html">Collection</a><span>/</span><b id="crumbName"></b>
+    </nav>
+
+    <div class="pd-grid">
+      <div class="pd-gallery rv">
+        <div class="pd-main"><img id="pdImg" alt=""></div>
+        <div class="pd-thumbs" id="pdThumbs"></div>
+      </div>
+
+      <div class="pd-info rv">
+        <p class="eyebrow" id="pdFab"></p>
+        <h1 id="pdName"></h1>
+        <p class="pd-price" id="pdPrice"></p>
+        <p class="pd-desc" id="pdDesc"></p>
+
+        <span class="opt-label">Colour — <b id="pdColorName"></b></span>
+        <div class="dot-row" id="pdDots"></div>
+
+        <span class="opt-label">Size</span>
+        <div class="size-row" id="pdSizes"></div>
+
+        <div class="pd-buy">
+          <div class="qty"><button id="pdMinus" aria-label="Decrease quantity">−</button><span id="pdQty">1</span><button id="pdPlus" aria-label="Increase quantity">+</button></div>
+          <button class="btn btn-solid btn-grow" id="pdAdd">Add to basket</button>
+        </div>
+
+        <div class="pd-trust">
+          <span>✦ OEKO-TEX® Standard 100</span>
+          <span>☾ 100-night trial</span>
+          <span>▣ Free delivery over $150</span>
+        </div>
+
+        <div class="acc-group" id="pdAcc">
+          <div class="acc-item">
+            <button class="acc-head">Composition &amp; care<span class="acc-x">+</span></button>
+            <div class="acc-body"><p id="accComp"></p></div>
+          </div>
+          <div class="acc-item">
+            <button class="acc-head">Shipping &amp; returns<span class="acc-x">+</span></button>
+            <div class="acc-body"><p>Dispatched from Porto within 48 hours in plastic-free packaging. Free delivery on orders over $150. Returns accepted within the full 100-night window — we arrange the collection.</p></div>
+          </div>
+          <div class="acc-item">
+            <button class="acc-head">The 100-night trial<span class="acc-x">+</span></button>
+            <div class="acc-body"><p>Sheets need seasons, not minutes. Sleep on them through a full rotation of weather; if they aren't the best you've owned, write to us and we'll refund every cent. Washed and lived-in is fine — that's the point.</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="rel">
+      <div class="sec-head rv">
+        <span class="sec-no">Pairs well with</span>
+        <h2 class="sec-title">Complete the <em>bed</em></h2>
+      </div>
+      <div class="rel-grid" id="relGrid"></div>
+    </section>
+  </section>
+
+</main>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
